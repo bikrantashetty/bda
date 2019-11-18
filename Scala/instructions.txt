@@ -1,0 +1,13 @@
+first goto your project folder outside "src" and then run 
+$sbt compile
+then do
+$sbt run 
+for most programs 
+for programs like wordCountProgram after compilation do 
+$sbt "run src/main/scala/file.txt"
+thats almost all i know about this
+
+tip: make seperate directories for each program
+tip: put the ".scala" program inside "src/main/scala" always
+tip: run command from the directory exactly outside of src folder
+
